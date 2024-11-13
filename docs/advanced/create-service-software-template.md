@@ -262,7 +262,7 @@ spec:
         url: ${{ steps['pagerdutyService'].output.serviceUrl }}
     text:
       - title: Integration Key
-        text: ${{ steps['pagerdutyService'].output.integrationKey }}
+        content: ${{ steps['pagerdutyService'].output.integrationKey }}
 
 ```
 
